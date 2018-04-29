@@ -1,0 +1,5 @@
+<script>
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+    location = 'https://tudominio.es/gracias/'; // Recuerda cambiar la URL que aquí aparece por la de tu página de agradecimiento
+}, false );
+</script>

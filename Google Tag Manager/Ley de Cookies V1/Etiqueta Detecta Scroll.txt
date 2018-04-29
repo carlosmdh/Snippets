@@ -1,0 +1,22 @@
+/*!
+ * DETECTA SRCOLL
+ * Script con el que se crea una etiqueta de 
+ * HTML personalizado en Google Tag Manager 
+ * para detectar que el usuario hace scroll 
+ * en la página e implementar la ley de Cookies
+ */
+
+<script>
+window.addEventListener ?
+  window.addEventListener('scroll', testScroll, false) :
+  window.attachEvent('onScroll', testScroll);
+ 
+var scrollCount = 0;
+ 
+function testScroll() {
+  ++scrollCount;
+  if (scrollCount == 2) {
+    dataLayer.push({ 'event': 'aceptacookies'});
+  }
+}
+</script>
