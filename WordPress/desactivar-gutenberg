@@ -1,0 +1,15 @@
+<?php
+/**
+* Plugin Name: Deshabilitar Gutenberg
+* Plugin URI: http://carlosmdh.es
+* Description: Snippet para desabilitar el nuevo editor Gutenberg en WordPress
+* Version: 1.0.0
+* Author: carlosmdh
+* License: GPL 2+
+* License URI: https://www.gnu.org/licenses/gpl-2.0.html
+**/
+
+/* Simolemente añade la siguiente línea de codigo en tu plugin de funciones personal (recomendado)
+* o en el archivo funtions.php del Theme que tengas activado (NO RECOMENDADO)*/
+
+add_filter( 'gutenberg_can_edit_post_type', '__return_false' );
