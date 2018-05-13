@@ -24,6 +24,7 @@ function carlosmdh_global_analytics() { ?>
   
   gtag('config', '<GA_TRACKING_ID>', { 'anonymize_ip': true });
 </script>
+<!--End Global site tag (gtag.js) - Google Analytics -->
 
 <?php }
 
