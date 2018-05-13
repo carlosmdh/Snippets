@@ -21,6 +21,8 @@ License URI:https://carlosmdh.es
   gtag('config', '<GA_TRACKING_ID>', { 'anonymize_ip': true });
 </script>
 
+  <?php }
+
 
 
 
