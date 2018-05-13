@@ -16,13 +16,13 @@ add_action( 'wp_head', 'carlosmdh_global_analytics' );
 function carlosmdh_global_analytics() { ?>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=<GA_TRACKING_ID>"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=INSERTA AQUI EL IDENTIFICADOR DE TU PROPIEDAD DE ANALYTICS"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   
-  gtag('config', '<GA_TRACKING_ID>', { 'anonymize_ip': true });
+  gtag('config', 'INSERTA AQUI EL IDENTIFICADOR DE TU PROPIEDAD DE ANALYTICS', { 'anonymize_ip': true });
 </script>
 <!--End Global site tag (gtag.js) - Google Analytics -->
 
