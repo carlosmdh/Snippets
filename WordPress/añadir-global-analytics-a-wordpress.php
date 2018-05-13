@@ -1,3 +1,16 @@
+<?php
+/*
+Plugin Name: Insertar Global Analytics en WordPress
+Plugin URI: https://carlosmdh.es
+Description: Plugin para insertar los Scripts de Global Analytics
+Version: 1.0.1
+Author: carlosmdh
+License: GPL 2+
+License URI:https://carlosmdh.es
+*/
+
+// Añadir el código de Global Analytics en el <head>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=<GA_TRACKING_ID>"></script>
 <script>
