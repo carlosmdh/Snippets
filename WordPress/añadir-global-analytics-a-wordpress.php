@@ -11,6 +11,10 @@ License URI:https://carlosmdh.es
 
 // Añadir el código de Global Analytics en el <head>
 
+add_action( 'wp_head', 'carlosmdh_global_analytics' );
+
+function carlosmdh_global_analytics() { ?>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=<GA_TRACKING_ID>"></script>
 <script>
@@ -21,7 +25,7 @@ License URI:https://carlosmdh.es
   gtag('config', '<GA_TRACKING_ID>', { 'anonymize_ip': true });
 </script>
 
-  <?php }
+<?php }
 
 
 
