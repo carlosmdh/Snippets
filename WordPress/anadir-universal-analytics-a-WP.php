@@ -24,6 +24,8 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
 ga('create', 'INSERTA AQUI EL IDENTIFICADOR DE TU PROPIEDAD DE ANALYTICS', 'auto');
 ga('set', 'anonymizeIp', true); //ESTA LINEA GARANTIZA QUE SE ANONIMIZA LA IP
+ga('require','dnt');
+  
 ga('send', 'pageview');
 </script>
 <!-- End Google Analytics -->
