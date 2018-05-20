@@ -23,8 +23,6 @@ function carlosmdh_global_analytics() { ?>
   gtag('js', new Date());
   
   gtag('config', 'INSERTA AQUI EL IDENTIFICADOR DE TU PROPIEDAD DE ANALYTICS', { 'anonymize_ip': true });
-  window['ga-disable-INSERTA AQUI EL IDENTIFICADOR DE TU PROPIEDAD DE ANALYTICS'] = true;
-
 
 </script>
 <!--End Global site tag (gtag.js) - Google Analytics -->
