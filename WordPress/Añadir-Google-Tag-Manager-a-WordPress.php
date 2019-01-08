@@ -25,7 +25,7 @@ function carlosmdh_google_tag_manager1() { ?>
 
 <?php }
 
-// Añadir el código de Google Tag Manager code justo  debajo de la apertura de la etiqueta <body>
+// Añadir el código noscript de Google Tag Manager justo  debajo de la apertura de la etiqueta <body>
 
 add_action( 'wp_footer', 'carlosmdh_google_tag_manager2' );
 
