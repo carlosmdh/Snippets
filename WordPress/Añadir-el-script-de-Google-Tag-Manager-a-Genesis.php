@@ -28,7 +28,7 @@ function carlosmdh_google_tag_manager_genesis_1() { ?>
 	<!-- End Google Tag Manager -->
 <?php }
 
-/* Añadir el código de Tag Manager justo antes de la apertura del <body>
+/* Añadir el código noscript de Tag Manager justo antes de la apertura del <body>
 */
 
 add_action( 'genesis_before', 'carlosmdh_google_tag_manager_genesis_2' );
