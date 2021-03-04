@@ -22,7 +22,8 @@ function carlosmdh_global_analytics() { ?>
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   
-  gtag('config', 'INSERTA AQUI EL IDENTIFICADOR DE TU PROPIEDAD DE ANALYTICS', { 'anonymize_ip': true });
+  gtag('config', 'INSERTA AQUI EL IDENTIFICADOR DE TU PROPIEDAD DE UNIVERSAL ANALYTICS UA-XXXXXXXXX-Y', { 'anonymize_ip': true }); // Identificador de Google Analytics 3 (Universal Analytics
+  gtag('config', 'INSERTA AQUI EL IDENTIFICADOR DE TU PROPIEDAD DE GA4 G-XXXXXXXXXX'); //Identificador de Google Analytics 4 (GA4)
 
 </script>
 <!--End Global site tag (gtag.js) - Google Analytics -->
